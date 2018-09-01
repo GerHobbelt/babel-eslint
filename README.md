@@ -1,4 +1,4 @@
-# babel-eslint [![npm](https://img.shields.io/npm/v/babel-eslint.svg)](https://www.npmjs.com/package/babel-eslint) [![travis](https://img.shields.io/travis/babel/babel-eslint/master.svg)](https://travis-ci.org/babel/babel-eslint) [![npm-downloads](https://img.shields.io/npm/dm/babel-eslint.svg)](https://www.npmjs.com/package/babel-eslint)
+# babel-eslint [![npm](https://img.shields.io/npm/v/@gerhobbelt/babel-eslint.svg)](https://www.npmjs.com/package/@gerhobbelt/babel-eslint) [![travis](https://img.shields.io/travis/GerHobbelt/babel-eslint/master.svg)](https://travis-ci.org/GerHobbelt/babel-eslint) [![npm-downloads](https://img.shields.io/npm/dm/@gerhobbelt/babel-eslint.svg)](https://www.npmjs.com/package/@gerhobbelt/babel-eslint)
 
 **babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic
 [ESLint](https://github.com/eslint/eslint).
@@ -57,9 +57,9 @@ ESLint | babel-eslint
 Ensure that you have substituted the correct version lock for `eslint` and `babel-eslint` into this command:
 
 ```sh
-$ npm install eslint@4.x babel-eslint@8 --save-dev
+$ npm install eslint@4.x @gerhobbelt/babel-eslint@8 --save-dev
 # or
-$ yarn add eslint@4.x babel-eslint@8 -D
+$ yarn add eslint@4.x @gerhobbelt/babel-eslint@8 -D
 ```
 
 ### Setup
