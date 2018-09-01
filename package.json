@@ -1,6 +1,6 @@
 {
   "name": "@gerhobbelt/babel-eslint",
-  "version": "9.0.0-1",
+  "version": "9.0.0-2",
   "description": "Custom parser for ESLint",
   "main": "lib/index.js",
   "files": [
@@ -23,8 +23,8 @@
     "test-only": "mocha && mocha --require test/fixtures/preprocess-to-patch.js",
     "lint": "eslint lib test",
     "fix": "eslint lib test --fix",
-    "precommit": "lint-staged",
-    "preversion": "npm test",
+    "precommit-orig": "lint-staged",
+    "preversion-orig": "npm test",
     "changelog": "git log `git describe --tags --abbrev=0`..HEAD --pretty=format:' * %s (%an)' | grep -v 'Merge pull request'",
     "pub": "npm publish --access public"
   },
