@@ -568,7 +568,7 @@ describe("verify", () => {
       verifyAndAssertMessages(
         `
           import type {Type} from 'Type';
-          function f<T>(): T {}
+          function f<Type>(): Type {}
           f<Type>();
         `,
         { "no-unused-vars": 1, "no-undef": 1 }
